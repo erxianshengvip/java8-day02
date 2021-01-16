@@ -43,8 +43,6 @@ public class TestMethodRef {
         System.out.println(strs.length);
         System.out.println("Test");
         System.out.println("qujianhua");
-        System.out.println("erxianshengvip");
-
         Function<Integer,String[]> fun1=String[]::new;
         String[] strs1=fun1.apply(20);
         System.out.println(strs1.length);
